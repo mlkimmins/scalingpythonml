@@ -170,7 +170,7 @@ from fugue_notebook import setup
 
 setup(is_lab=True)
 
-% % fsql dask
+%% fsql dask
 tempdf = SELECT VendorID, AVG(total_amount) AS average_fare FROM df GROUP BY VendorID
 
 SELECT *
